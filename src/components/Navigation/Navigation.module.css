@@ -1,0 +1,80 @@
+nav {
+  width: 100vw;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 5rem;
+  position: fixed;
+  z-index: 2;
+}
+
+nav span {
+  color: #414143;
+}
+
+nav p,
+a {
+  font-size: 2rem;
+  color: #f9660e;
+}
+
+.logo-and-nav {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-items {
+  width: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item {
+  position: relative;
+  color: #414143;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.navigation-item:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navigation-item::before,
+.navigation-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background-color: #f9660e;
+  transition: all 0.2s;
+}
+
+.navigation-item::before {
+  left: 50%;
+}
+
+.navigation-item::after {
+  right: 50%;
+}
+
+.navigation-item:hover::before,
+.navigation-item:hover::after {
+  width: 50%;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+}

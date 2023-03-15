@@ -1,0 +1,100 @@
+.menu-bar {
+  z-index: 2;
+}
+
+.menu {
+  width: 3.5rem;
+  height: 3rem;
+  margin: 3rem 0 2rem 2rem;
+  cursor: pointer;
+}
+
+.bar {
+  height: 0.5rem;
+  width: 100%;
+  background-color: #f9660e;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.bar1 {
+  transform: translateY(-4px);
+}
+
+.bar3 {
+  transform: translateY(4px);
+}
+
+ul {
+  font-size: 2rem;
+}
+
+.nav li a {
+  color: #181a1b;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.nav li {
+  list-style: none;
+  padding: 1.6rem 0;
+  transition: all 0.2s;
+}
+
+.nav li:hover {
+  transform: translateX(1rem);
+}
+
+.nav {
+  padding: 0;
+  margin: 0 2rem;
+  transition: 0.3s ease;
+  display: none;
+}
+
+.menu-bg,
+.menu-bar {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 3rem 0 2rem 2rem;
+  background: radial-gradient(circle, #f9660e, #f9660e);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change-bg {
+  width: 35rem;
+  height: 35rem;
+  transform: translate(-60%, -30%);
+}
+
+.change .bar {
+  background-color: #181a1b;
+}
+
+.change .bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change .bar3 {
+  transform: translateY(-6px) rotate(45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change {
+  display: block;
+}
