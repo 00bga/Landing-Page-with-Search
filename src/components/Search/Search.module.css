@@ -1,0 +1,12 @@
+.search-button {
+  transition: all 0.2s;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.search-button:active {
+  transform: translateZ(-4px);
+}
