@@ -1,0 +1,38 @@
+.home-wrapper {
+  height: 50rem;
+  display: flex;
+  align-items: end;
+}
+
+.home {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home h2 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.home-search {
+  display: flex;
+  align-items: center;
+}
+
+.home-search input {
+  width: 70vw;
+  height: 5rem;
+  margin-right: 2rem;
+  outline: none;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #414143;
+}
+
+.home-search input::placeholder {
+  font-size: 1.6rem;
+  color: #414143;
+}

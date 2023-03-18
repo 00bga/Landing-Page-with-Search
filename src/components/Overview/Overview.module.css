@@ -1,0 +1,62 @@
+.overview {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 2rem;
+  height: 110rem;
+}
+
+.overview-description-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.overview-description {
+  width: 60rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overview-text {
+  width: 50rem;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.overview-title {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.overview-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overview-image img {
+  width: 50rem;
+  height: 50rem;
+  object-fit: contain;
+}
+
+.overview-button {
+  width: 15rem;
+  height: 5rem;
+  border-radius: 25px;
+  border: none;
+  background-color: #f9660e;
+  transition: all 0.2s;
+  box-shadow: 0 0 20px rgba(249, 102, 14, 0.5);
+}
+
+.overview-button:hover {
+  background-color: #ffb489;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.overview-button:active {
+  transform: translateZ(-4px);
+}

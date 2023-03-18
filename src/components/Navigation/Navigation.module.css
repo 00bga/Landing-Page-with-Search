@@ -6,7 +6,6 @@ nav {
   justify-content: space-between;
   background-color: #fff;
   padding: 5rem;
-  position: fixed;
   z-index: 2;
 }
 
@@ -77,4 +76,26 @@ a {
   font-weight: bolder;
   cursor: pointer;
   text-decoration: none;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+  background: none;
+  border: none;
+  outline: none;
+  transition: all 0.2s;
+  color: #414143;
+  padding: 1rem;
+  font-size: 1.6rem;
+  width: 25rem;
+}
+
+.search input::placeholder {
+  font-size: 1.6rem;
+  color: #414143;
 }
