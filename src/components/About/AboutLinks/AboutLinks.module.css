@@ -1,0 +1,18 @@
+.about-links {
+  height: 7rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-links a {
+  width: 7rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.about-links a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -17,6 +17,12 @@
   color: #fff;
 }
 
+.home-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .home-search {
   display: flex;
   align-items: center;
