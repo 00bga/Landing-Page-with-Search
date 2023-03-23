@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 2rem;
-  height: 110rem;
+  height: 100vh;
 }
 
 .overview-description-wrapper {

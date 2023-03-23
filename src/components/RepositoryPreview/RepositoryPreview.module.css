@@ -1,0 +1,39 @@
+.search-results-preview {
+  width: 40vw;
+  height: 25rem;
+  background-color: rgb(46, 46, 46);
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  position: absolute;
+  top: 6rem;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.result-preview {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #858585;
+  transition: all 0.2s;
+}
+
+.result-preview:hover {
+  background-color: rgb(69, 69, 69);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.result-preview h4 {
+  font-size: 2rem;
+  color: #f9660e;
+}
+
+.result-preview p {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.link {
+  text-decoration: none;
+}
